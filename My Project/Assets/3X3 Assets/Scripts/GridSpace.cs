@@ -14,7 +14,6 @@ public class GridSpace : MonoBehaviour
 	
 	public void SetSpace()
 	{
-		
 		buttonText.text = gameController.GetPlayerSide();
 		if(buttonText.text== "X")
 		{

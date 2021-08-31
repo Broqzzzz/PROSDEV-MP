@@ -14,8 +14,9 @@ public class GridSpace3 : MonoBehaviour
 	
 	public void SetSpace()
 	{
-		
-		buttonText.text = gameController3.GetPlayerSide();
+
+		if (gameController3.GetPlayerSide() != null)
+			buttonText.text = gameController3.GetPlayerSide();
 		if(buttonText.text== "X")
 		{
 			button.image.sprite = newButtonImageX;

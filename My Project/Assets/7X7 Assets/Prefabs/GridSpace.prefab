@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8788367334782277146}
   - component: {fileID: 6000828296537360370}
   - component: {fileID: 8101975074816319414}
-  - component: {fileID: 1401270469803812424}
   - component: {fileID: -8389340828205761367}
   m_Layer: 5
   m_Name: GridSpace
@@ -62,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -123,8 +122,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1401270469803812424}
-        m_TargetAssemblyTypeName: GridSpace, Assembly-CSharp
+      - m_Target: {fileID: -8389340828205761367}
+        m_TargetAssemblyTypeName: GridSpace3, Assembly-CSharp
         m_MethodName: SetSpace
         m_Mode: 1
         m_Arguments:
@@ -135,22 +134,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1401270469803812424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214339019487883993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 191f51d4c31a37c4fa3aeae9b8cb3779, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 8101975074816319414}
-  buttonText: {fileID: 2822048054332519149}
-  newButtonImageX: {fileID: 21300000, guid: d96ad02bec037bf4b97d28884cbf1a7e, type: 3}
-  newButtonImageO: {fileID: 21300000, guid: d5e7c380e33bf5242b948bf6e1ee8cbb, type: 3}
 --- !u!114 &-8389340828205761367
 MonoBehaviour:
   m_ObjectHideFlags: 0

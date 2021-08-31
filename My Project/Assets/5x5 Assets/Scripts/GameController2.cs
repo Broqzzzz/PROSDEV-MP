@@ -175,8 +175,8 @@ public class GameController2 : MonoBehaviour
         }
 
         if (buttonList[7].text == playerSide &&
-         buttonList[13].text == playerSide &&
-         buttonList[18].text == playerSide &&
+         buttonList[12].text == playerSide &&
+         buttonList[17].text == playerSide &&
          buttonList[22].text == playerSide)
         {
             GameOver();
@@ -213,6 +213,8 @@ public class GameController2 : MonoBehaviour
         {
             GameOver();
         }
+
+
 
         // Diagonal
         if (buttonList[0].text == playerSide &&

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 107d909ae0adf8846a28ec4dc19dc942
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - button: {instanceID: 0}
+  - buttonText: {instanceID: 0}
+  - newButtonImageX: {fileID: 21300000, guid: d96ad02bec037bf4b97d28884cbf1a7e, type: 3}
+  - newButtonImageO: {fileID: 21300000, guid: d5e7c380e33bf5242b948bf6e1ee8cbb, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,18 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GridSpace : MonoBehaviour
+public class GridSpace3 : MonoBehaviour
 {
 	public Button button;
 	public Text buttonText;
 	public Sprite newButtonImageX;
 	public Sprite newButtonImageO;
 
-	private GameController gameController;
+	private GameController3 gameController3;
 	
 	public void SetSpace()
 	{
-		buttonText.text = gameController.GetPlayerSide();
+
+		if (gameController3.GetPlayerSide() != null)
+			buttonText.text = gameController3.GetPlayerSide();
 		if(buttonText.text== "X")
 		{
 			button.image.sprite = newButtonImageX;
@@ -25,13 +27,13 @@ public class GridSpace : MonoBehaviour
 		}
 
 		button.interactable = false;
-		gameController.EndTurn();
+		gameController3.EndTurn();
 
 	}
 
-	public void SetGameControllerReference(GameController controller)
+	public void SetGameControllerReference(GameController3 controller)
 	{
-		gameController = controller;
+		gameController3 = controller;
 
 	}
 
